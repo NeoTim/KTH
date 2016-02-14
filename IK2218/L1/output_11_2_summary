@@ -1,0 +1,15 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    192.168.0.13          192.168.0.18          TCP      74     60383→23 [SYN] Seq=0 Win=5840 Len=0 MSS=1460 SACK_PERM=1 TSval=2707914 TSecr=0 WS=32
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 60383 (60383), Dst Port: 23 (23), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000084000    192.168.0.18          192.168.0.13          TCP      54     23→60383 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+
+Frame 2: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 60383 (60383), Seq: 1, Ack: 1, Len: 0

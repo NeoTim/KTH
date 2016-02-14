@@ -1,0 +1,498 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    192.168.0.13          192.168.0.18          TCP      74     45349→23 [SYN] Seq=0 Win=5840 Len=0 MSS=1460 SACK_PERM=1 TSval=2396831 TSecr=0 WS=32
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 0, Len: 0
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 0
+    Header Length: 40 bytes
+    .... 0000 0000 0010 = Flags: 0x002 (SYN)
+    Window size value: 5840
+    [Calculated window size: 5840]
+    Checksum: 0xa4dd [validation disabled]
+    Urgent pointer: 0
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000046000    192.168.0.18          192.168.0.13          TCP      74     23→45349 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=36901390 TSecr=2396831 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45349 (45349), Seq: 0, Ack: 1, Len: 0
+    Source Port: 23 (23)
+    Destination Port: 45349 (45349)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 40 bytes
+    .... 0000 0001 0010 = Flags: 0x012 (SYN, ACK)
+    Window size value: 28960
+    [Calculated window size: 28960]
+    Checksum: 0x7904 [validation disabled]
+    Urgent pointer: 0
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000311000    192.168.0.13          192.168.0.18          TCP      66     45349→23 [ACK] Seq=1 Ack=1 Win=5856 Len=0 TSval=2396831 TSecr=36901390
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 0
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x183a [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.001543000    192.168.0.13          192.168.0.18          TELNET   93     Telnet Data ...
+
+Frame 4: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 27
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 27]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 28    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x98c9 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.001579000    192.168.0.18          192.168.0.13          TCP      66     23→45349 [ACK] Seq=1 Ack=28 Win=29056 Len=0 TSval=36901390 TSecr=2396831
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45349 (45349), Seq: 1, Ack: 28, Len: 0
+    Source Port: 23 (23)
+    Destination Port: 45349 (45349)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 28    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x17f3 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.006295000    192.168.0.18          192.168.0.13          TELNET   78     Telnet Data ...
+
+Frame 6: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45349 (45349), Seq: 1, Ack: 28, Len: 12
+    Source Port: 23 (23)
+    Destination Port: 45349 (45349)
+    [Stream index: 0]
+    [TCP Segment Len: 12]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 13    (relative sequence number)]
+    Acknowledgment number: 28    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xe09a [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.007642000    192.168.0.13          192.168.0.18          TCP      66     45349→23 [ACK] Seq=28 Ack=13 Win=5856 Len=0 TSval=2396833 TSecr=36901391
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 28, Ack: 13, Len: 0
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 28    (relative sequence number)
+    Acknowledgment number: 13    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x1810 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.007675000    192.168.0.18          192.168.0.13          TELNET   105    Telnet Data ...
+
+Frame 8: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45349 (45349), Seq: 13, Ack: 28, Len: 39
+    Source Port: 23 (23)
+    Destination Port: 45349 (45349)
+    [Stream index: 0]
+    [TCP Segment Len: 39]
+    Sequence number: 13    (relative sequence number)
+    [Next sequence number: 52    (relative sequence number)]
+    Acknowledgment number: 28    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x3cfb [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.008039000    192.168.0.13          192.168.0.18          TCP      66     45349→23 [ACK] Seq=28 Ack=52 Win=5856 Len=0 TSval=2396833 TSecr=36901392
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 0
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 28    (relative sequence number)
+    Acknowledgment number: 52    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x17e8 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.008079000    192.168.0.13          192.168.0.18          TELNET   140    Telnet Data ...
+
+Frame 10: 140 bytes on wire (1120 bits), 140 bytes captured (1120 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 74
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 74]
+    Sequence number: 28    (relative sequence number)
+    [Next sequence number: 102    (relative sequence number)]
+    Acknowledgment number: 52    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x3368 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.008468000    192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 11: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45349 (45349), Seq: 52, Ack: 102, Len: 3
+    Source Port: 23 (23)
+    Destination Port: 45349 (45349)
+    [Stream index: 0]
+    [TCP Segment Len: 3]
+    Sequence number: 52    (relative sequence number)
+    [Next sequence number: 55    (relative sequence number)]
+    Acknowledgment number: 102    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x1669 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.010897000    192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 12: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 102, Ack: 55, Len: 3
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 3]
+    Sequence number: 102    (relative sequence number)
+    [Next sequence number: 105    (relative sequence number)]
+    Acknowledgment number: 55    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x1693 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.011104000    192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 13: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45349 (45349), Seq: 55, Ack: 105, Len: 3
+    Source Port: 23 (23)
+    Destination Port: 45349 (45349)
+    [Stream index: 0]
+    [TCP Segment Len: 3]
+    Sequence number: 55    (relative sequence number)
+    [Next sequence number: 58    (relative sequence number)]
+    Acknowledgment number: 105    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x1664 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.012476000    192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 14: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 105, Ack: 58, Len: 3
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 3]
+    Sequence number: 105    (relative sequence number)
+    [Next sequence number: 108    (relative sequence number)]
+    Acknowledgment number: 58    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x168a [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.012511000    192.168.0.18          192.168.0.13          TELNET   109    Telnet Data ...
+
+Frame 15: 109 bytes on wire (872 bits), 109 bytes captured (872 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45349 (45349), Seq: 58, Ack: 108, Len: 43
+    Source Port: 23 (23)
+    Destination Port: 45349 (45349)
+    [Stream index: 0]
+    [TCP Segment Len: 43]
+    Sequence number: 58    (relative sequence number)
+    [Next sequence number: 101    (relative sequence number)]
+    Acknowledgment number: 108    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x1bb1 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.050087000    192.168.0.13          192.168.0.18          TCP      66     45349→23 [ACK] Seq=108 Ack=101 Win=5856 Len=0 TSval=2396844 TSecr=36901393
+
+Frame 16: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 108, Ack: 101, Len: 0
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 108    (relative sequence number)
+    Acknowledgment number: 101    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x175b [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.050121000    192.168.0.18          192.168.0.13          TELNET   80     Telnet Data ...
+
+Frame 17: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45349 (45349), Seq: 101, Ack: 108, Len: 14
+    Source Port: 23 (23)
+    Destination Port: 45349 (45349)
+    [Stream index: 0]
+    [TCP Segment Len: 14]
+    Sequence number: 101    (relative sequence number)
+    [Next sequence number: 115    (relative sequence number)]
+    Acknowledgment number: 108    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 1000 = Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xa34e [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.051519000    192.168.0.13          192.168.0.18          TCP      66     45349→23 [ACK] Seq=108 Ack=115 Win=5856 Len=0 TSval=2396844 TSecr=36901402
+
+Frame 18: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 108, Ack: 115, Len: 0
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 108    (relative sequence number)
+    Acknowledgment number: 115    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x1744 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 7.664553000    192.168.0.13          192.168.0.18          TCP      66     45349→23 [FIN, ACK] Seq=108 Ack=115 Win=5856 Len=0 TSval=2398747 TSecr=36901402
+
+Frame 19: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 108, Ack: 115, Len: 0
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 108    (relative sequence number)
+    Acknowledgment number: 115    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0001 = Flags: 0x011 (FIN, ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x0fd4 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 7.664866000    192.168.0.18          192.168.0.13          TCP      66     23→45349 [FIN, ACK] Seq=115 Ack=109 Win=29056 Len=0 TSval=36903306 TSecr=2398747
+
+Frame 20: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45349 (45349), Seq: 115, Ack: 109, Len: 0
+    Source Port: 23 (23)
+    Destination Port: 45349 (45349)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 115    (relative sequence number)
+    Acknowledgment number: 109    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0001 = Flags: 0x011 (FIN, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x0837 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 7.665173000    192.168.0.13          192.168.0.18          TCP      66     45349→23 [ACK] Seq=109 Ack=116 Win=5856 Len=0 TSval=2398747 TSecr=36903306
+
+Frame 21: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 45349 (45349), Dst Port: 23 (23), Seq: 109, Ack: 116, Len: 0
+    Source Port: 45349 (45349)
+    Destination Port: 23 (23)
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 109    (relative sequence number)
+    Acknowledgment number: 116    (relative ack number)
+    Header Length: 32 bytes
+    .... 0000 0001 0000 = Flags: 0x010 (ACK)
+    Window size value: 183
+    [Calculated window size: 5856]
+    [Window size scaling factor: 32]
+    Checksum: 0x0863 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]

@@ -1,0 +1,1475 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    192.168.0.18          192.168.0.13          TCP      74     51116→23 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=37485706 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.002025000    192.168.0.13          192.168.0.18          TCP      74     23→51116 [SYN, ACK] Seq=0 Ack=1 Win=5792 Len=0 MSS=1460 SACK_PERM=1 TSval=2981134 TSecr=37485706 WS=32
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.152465000    192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=37485744 TSecr=2981134
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.152505000    192.168.0.18          192.168.0.13          TELNET   93     Telnet Data ...
+
+Frame 4: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 27
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.154514000    192.168.0.13          192.168.0.18          TCP      66     23→51116 [ACK] Seq=1 Ack=28 Win=5792 Len=0 TSval=2981172 TSecr=37485744
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 1, Ack: 28, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 5.164544000    192.168.0.13          192.168.0.18          TELNET   78     Telnet Data ...
+
+Frame 6: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 1, Ack: 28, Len: 12
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 5.314935000    192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=28 Ack=13 Win=29312 Len=0 TSval=37487035 TSecr=2982424
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 28, Ack: 13, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 5.316975000    192.168.0.13          192.168.0.18          TELNET   105    Telnet Data ...
+
+Frame 8: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 13, Ack: 28, Len: 39
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 5.467387000    192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=28 Ack=52 Win=29312 Len=0 TSval=37487073 TSecr=2982462
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 5.467428000    192.168.0.18          192.168.0.13          TELNET   144    Telnet Data ...
+
+Frame 10: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 78
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 5.468652000    192.168.0.13          192.168.0.18          TCP      66     23→51116 [ACK] Seq=52 Ack=106 Win=5792 Len=0 TSval=2982500 TSecr=37487073
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 52, Ack: 106, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 5.468655000    192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 12: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 52, Ack: 106, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 5.619189000    192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 13: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 106, Ack: 55, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 5.622393000    192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 14: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 55, Ack: 109, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 5.773001000    192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 15: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 109, Ack: 58, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 5.776126000    192.168.0.13          192.168.0.18          TELNET   96     Telnet Data ...
+
+Frame 16: 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 58, Ack: 112, Len: 30
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 5.965563000    192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=112 Ack=88 Win=29312 Len=0 TSval=37487198 TSecr=2982577
+
+Frame 17: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 112, Ack: 88, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 6.841592000    192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 18: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 112, Ack: 88, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 6.849716000    192.168.0.13          192.168.0.18          TELNET   67     Telnet Data ...
+
+Frame 19: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 88, Ack: 113, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 7.000138000    192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 20: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 113, Ack: 89, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 7.006788000    192.168.0.13          192.168.0.18          TELNET   67     Telnet Data ...
+
+Frame 21: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 89, Ack: 114, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 7.157188000    192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 22: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 114, Ack: 90, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 7.165724000    192.168.0.13          192.168.0.18          TELNET   67     Telnet Data ...
+
+Frame 23: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 90, Ack: 115, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 7.316157000    192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 24: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 115, Ack: 91, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 7.322820000    192.168.0.13          192.168.0.18          TELNET   67     Telnet Data ...
+
+Frame 25: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 91, Ack: 116, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 7.509873000    192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=116 Ack=92 Win=29312 Len=0 TSval=37487584 TSecr=2982964
+
+Frame 26: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 116, Ack: 92, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 7.818789000    192.168.0.18          192.168.0.13          TELNET   68     Telnet Data ...
+
+Frame 27: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 116, Ack: 92, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 7.823496000    192.168.0.13          192.168.0.18          TELNET   68     Telnet Data ...
+
+Frame 28: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 92, Ack: 118, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 7.973839000    192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=118 Ack=94 Win=29312 Len=0 TSval=37487700 TSecr=2983089
+
+Frame 29: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 118, Ack: 94, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 7.977842000    192.168.0.13          192.168.0.18          TELNET   76     Telnet Data ...
+
+Frame 30: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 94, Ack: 118, Len: 10
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 8.128162000    192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=118 Ack=104 Win=29312 Len=0 TSval=37487738 TSecr=2983127
+
+Frame 31: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 118, Ack: 104, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 8.680280000    192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 32: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 118, Ack: 104, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 8.721834000    192.168.0.13          192.168.0.18          TCP      66     23→51116 [ACK] Seq=104 Ack=119 Win=5792 Len=0 TSval=2983314 TSecr=37487876
+
+Frame 33: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 104, Ack: 119, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 8.895039000    192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 34: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 119, Ack: 104, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 8.896999000    192.168.0.13          192.168.0.18          TCP      66     23→51116 [ACK] Seq=104 Ack=120 Win=5792 Len=0 TSval=2983357 TSecr=37487930
+
+Frame 35: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 104, Ack: 120, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 9.085090000    192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 36: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 120, Ack: 104, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 9.087033000    192.168.0.13          192.168.0.18          TCP      66     23→51116 [ACK] Seq=104 Ack=121 Win=5792 Len=0 TSval=2983405 TSecr=37487977
+
+Frame 37: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 104, Ack: 121, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 9.272639000    192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 38: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 121, Ack: 104, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 9.274044000    192.168.0.13          192.168.0.18          TCP      66     23→51116 [ACK] Seq=104 Ack=122 Win=5792 Len=0 TSval=2983451 TSecr=37488024
+
+Frame 39: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 104, Ack: 122, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 9.428546000    192.168.0.18          192.168.0.13          TELNET   68     Telnet Data ...
+
+Frame 40: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 122, Ack: 104, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 9.430317000    192.168.0.13          192.168.0.18          TCP      66     23→51116 [ACK] Seq=104 Ack=124 Win=5792 Len=0 TSval=2983491 TSecr=37488063
+
+Frame 41: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 104, Ack: 124, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 9.438818000    192.168.0.13          192.168.0.18          TELNET   68     Telnet Data ...
+
+Frame 42: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 104, Ack: 124, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 9.589142000    192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=124 Ack=106 Win=29312 Len=0 TSval=37488103 TSecr=2983493
+
+Frame 43: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 124, Ack: 106, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 9.694361000    192.168.0.13          192.168.0.18          TELNET   324    Telnet Data ...
+
+Frame 44: 324 bytes on wire (2592 bits), 324 bytes captured (2592 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 106, Ack: 124, Len: 258
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 9.844463000    192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=124 Ack=364 Win=30336 Len=0 TSval=37488167 TSecr=2983557
+
+Frame 45: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 124, Ack: 364, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 10.194947000   192.168.0.13          192.168.0.18          TELNET   96     Telnet Data ...
+
+Frame 46: 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 364, Ack: 124, Len: 30
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 10.345348000   192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=124 Ack=394 Win=30336 Len=0 TSval=37488292 TSecr=2983682
+
+Frame 47: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 124, Ack: 394, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 11.460218000   192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 48: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 124, Ack: 394, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 11.469928000   192.168.0.13          192.168.0.18          TELNET   67     Telnet Data ...
+
+Frame 49: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 394, Ack: 125, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 11.620276000   192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=125 Ack=395 Win=30336 Len=0 TSval=37488611 TSecr=2984001
+
+Frame 50: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 125, Ack: 395, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 12.468509000   192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 51: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 125, Ack: 395, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 12.479277000   192.168.0.13          192.168.0.18          TELNET   67     Telnet Data ...
+
+Frame 52: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 395, Ack: 126, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 12.629664000   192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=126 Ack=396 Win=30336 Len=0 TSval=37488864 TSecr=2984253
+
+Frame 53: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 126, Ack: 396, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 12.992303000   192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 54: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 126, Ack: 396, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 13.002068000   192.168.0.13          192.168.0.18          TELNET   67     Telnet Data ...
+
+Frame 55: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 396, Ack: 127, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 13.152496000   192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=127 Ack=397 Win=30336 Len=0 TSval=37488994 TSecr=2984384
+
+Frame 56: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 127, Ack: 397, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 13.461242000   192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 57: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 127, Ack: 397, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 13.471155000   192.168.0.13          192.168.0.18          TELNET   67     Telnet Data ...
+
+Frame 58: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 397, Ack: 128, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 13.621474000   192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=128 Ack=398 Win=30336 Len=0 TSval=37489111 TSecr=2984501
+
+Frame 59: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 128, Ack: 398, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 14.435203000   192.168.0.18          192.168.0.13          TELNET   68     Telnet Data ...
+
+Frame 60: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 128, Ack: 398, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 14.442217000   192.168.0.13          192.168.0.18          TELNET   68     Telnet Data ...
+
+Frame 61: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 398, Ack: 130, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 14.592677000   192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=130 Ack=400 Win=30336 Len=0 TSval=37489354 TSecr=2984744
+
+Frame 62: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 130, Ack: 400, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 14.819061000   192.168.0.13          192.168.0.18          TELNET   154    Telnet Data ...
+
+Frame 63: 154 bytes on wire (1232 bits), 154 bytes captured (1232 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 400, Ack: 130, Len: 88
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 14.969364000   192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=130 Ack=488 Win=30336 Len=0 TSval=37489448 TSecr=2984838
+
+Frame 64: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 130, Ack: 488, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 14.971485000   192.168.0.13          192.168.0.18          TELNET   270    Telnet Data ...
+
+Frame 65: 270 bytes on wire (2160 bits), 270 bytes captured (2160 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 488, Ack: 130, Len: 204
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 15.121799000   192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=130 Ack=692 Win=31360 Len=0 TSval=37489487 TSecr=2984876
+
+Frame 66: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 130, Ack: 692, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 18.548891000   192.168.0.18          192.168.0.13          TELNET   67     Telnet Data ...
+
+Frame 67: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 130, Ack: 692, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 18.559835000   192.168.0.13          192.168.0.18          TELNET   67     Telnet Data ...
+
+Frame 68: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 692, Ack: 131, Len: 1
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 18.710278000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 69: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 131, Ack: 693, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 18.718743000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 70: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 693, Ack: 134, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 18.869181000   192.168.0.18          192.168.0.13          TELNET   73     Telnet Data ...
+
+Frame 71: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 134, Ack: 696, Len: 7
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 18.879825000   192.168.0.13          192.168.0.18          TELNET   73     Telnet Data ...
+
+Frame 72: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 696, Ack: 141, Len: 7
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 19.029912000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 73: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 141, Ack: 703, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 19.038767000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 74: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 703, Ack: 145, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 19.189132000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 75: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 145, Ack: 707, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 19.199883000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 76: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 707, Ack: 149, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 19.349970000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 77: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 149, Ack: 711, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 19.358423000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 78: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 711, Ack: 153, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 19.508799000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 79: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 153, Ack: 715, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 19.519878000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 80: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 715, Ack: 158, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 19.669960000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 81: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 158, Ack: 720, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 19.678633000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 82: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 720, Ack: 162, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 19.828719000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 83: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 162, Ack: 724, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 19.835553000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 84: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 724, Ack: 166, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 19.985958000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 85: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 166, Ack: 728, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 19.994858000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 86: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 728, Ack: 170, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 20.145309000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 87: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 170, Ack: 732, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 20.151628000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 88: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 732, Ack: 174, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 20.302027000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 89: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 174, Ack: 736, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 20.310884000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 90: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 736, Ack: 179, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 20.461284000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 91: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 179, Ack: 741, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 20.467648000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 92: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 741, Ack: 183, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 20.618038000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 93: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 183, Ack: 745, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 20.626917000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 94: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 745, Ack: 188, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 20.777355000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 95: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 188, Ack: 750, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 20.784007000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 96: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 750, Ack: 192, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 20.934451000   192.168.0.18          192.168.0.13          TELNET   72     Telnet Data ...
+
+Frame 97: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 192, Ack: 754, Len: 6
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 20.942919000   192.168.0.13          192.168.0.18          TELNET   72     Telnet Data ...
+
+Frame 98: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 754, Ack: 198, Len: 6
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 21.093366000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 99: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 198, Ack: 760, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 21.100006000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 100: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 760, Ack: 203, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 21.250589000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 101: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 203, Ack: 765, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 21.258944000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 102: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 765, Ack: 208, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 21.409029000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 103: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 208, Ack: 770, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 21.416052000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 104: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 770, Ack: 213, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 21.566277000   192.168.0.18          192.168.0.13          TELNET   73     Telnet Data ...
+
+Frame 105: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 213, Ack: 775, Len: 7
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 21.574799000   192.168.0.13          192.168.0.18          TELNET   73     Telnet Data ...
+
+Frame 106: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 775, Ack: 220, Len: 7
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 21.725315000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 107: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 220, Ack: 782, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 21.732129000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 108: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 782, Ack: 225, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 21.882540000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 109: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 225, Ack: 787, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 21.891047000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 110: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 787, Ack: 229, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 22.041631000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 111: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 229, Ack: 791, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 22.048084000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 112: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 791, Ack: 233, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 22.198526000   192.168.0.18          192.168.0.13          TELNET   72     Telnet Data ...
+
+Frame 113: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 233, Ack: 795, Len: 6
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 22.207053000   192.168.0.13          192.168.0.18          TELNET   72     Telnet Data ...
+
+Frame 114: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 795, Ack: 239, Len: 6
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 22.357275000   192.168.0.18          192.168.0.13          TELNET   68     Telnet Data ...
+
+Frame 115: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 239, Ack: 801, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 22.363818000   192.168.0.13          192.168.0.18          TELNET   68     Telnet Data ...
+
+Frame 116: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 801, Ack: 241, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 22.514179000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 117: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 241, Ack: 803, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 22.523087000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 118: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 803, Ack: 244, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 22.673490000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 119: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 244, Ack: 806, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 22.680162000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 120: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 806, Ack: 249, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 22.830574000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 121: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 249, Ack: 811, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 22.839161000   192.168.0.13          192.168.0.18          TELNET   74     Telnet Data ...
+
+Frame 122: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 811, Ack: 254, Len: 8
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 22.989306000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 123: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 254, Ack: 819, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 22.996194000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 124: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 819, Ack: 259, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 23.146278000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 125: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 259, Ack: 824, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 23.155125000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 126: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 824, Ack: 262, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 23.305563000   192.168.0.18          192.168.0.13          TELNET   72     Telnet Data ...
+
+Frame 127: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 262, Ack: 827, Len: 6
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 23.312236000   192.168.0.13          192.168.0.18          TELNET   72     Telnet Data ...
+
+Frame 128: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 827, Ack: 268, Len: 6
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 23.462659000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 129: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 268, Ack: 833, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 23.470995000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 130: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 833, Ack: 272, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 23.621421000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 131: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 272, Ack: 837, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 23.627829000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 132: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 837, Ack: 275, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 23.778262000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 133: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 275, Ack: 840, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 23.787275000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 134: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 840, Ack: 280, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 23.937463000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 135: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 280, Ack: 845, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 23.944277000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 136: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 845, Ack: 285, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 24.094702000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 137: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 285, Ack: 850, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 24.103202000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 138: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 850, Ack: 290, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 24.253618000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 139: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 290, Ack: 855, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 24.260310000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 140: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 855, Ack: 295, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 24.410530000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 141: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 295, Ack: 860, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 24.418938000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 142: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 860, Ack: 298, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 24.569323000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 143: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 298, Ack: 863, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 24.576375000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 144: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 863, Ack: 302, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 24.726777000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 145: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 302, Ack: 867, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 24.736331000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 146: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 867, Ack: 305, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 24.886554000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 147: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 305, Ack: 870, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 24.894976000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 148: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 870, Ack: 308, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 25.045382000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 149: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 308, Ack: 873, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 25.056392000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 150: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 873, Ack: 312, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 25.206842000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 151: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 312, Ack: 877, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 25.215015000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 152: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 877, Ack: 315, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 25.365534000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 153: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 315, Ack: 880, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 25.376242000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 154: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 880, Ack: 318, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    155 25.526700000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 155: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 318, Ack: 883, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    156 25.535389000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 156: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 883, Ack: 321, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    157 25.685819000   192.168.0.18          192.168.0.13          TELNET   70     Telnet Data ...
+
+Frame 157: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 321, Ack: 886, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    158 25.696219000   192.168.0.13          192.168.0.18          TELNET   70     Telnet Data ...
+
+Frame 158: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 886, Ack: 325, Len: 4
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    159 25.846632000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 159: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 325, Ack: 890, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    160 25.855008000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 160: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 890, Ack: 330, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    161 26.005466000   192.168.0.18          192.168.0.13          TELNET   68     Telnet Data ...
+
+Frame 161: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 330, Ack: 895, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    162 26.016558000   192.168.0.13          192.168.0.18          TELNET   68     Telnet Data ...
+
+Frame 162: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 895, Ack: 332, Len: 2
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    163 26.167046000   192.168.0.18          192.168.0.13          TELNET   71     Telnet Data ...
+
+Frame 163: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 332, Ack: 897, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    164 26.175181000   192.168.0.13          192.168.0.18          TELNET   71     Telnet Data ...
+
+Frame 164: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 897, Ack: 337, Len: 5
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    165 26.325612000   192.168.0.18          192.168.0.13          TELNET   69     Telnet Data ...
+
+Frame 165: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 337, Ack: 902, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    166 26.336491000   192.168.0.13          192.168.0.18          TELNET   69     Telnet Data ...
+
+Frame 166: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 51116 (51116), Seq: 902, Ack: 340, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    167 26.525503000   192.168.0.18          192.168.0.13          TCP      66     51116→23 [ACK] Seq=340 Ack=905 Win=31360 Len=0 TSval=37492338 TSecr=2987717
+
+Frame 167: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 51116 (51116), Dst Port: 23 (23), Seq: 340, Ack: 905, Len: 0

@@ -1,0 +1,174 @@
+ssh student-G@xen.netlab.csc.kth.se
+
+basket field payment same love
+
+iptables -A FORWARD -p icmp --icmp-type echo-request -j DROP
+
+iptables -A FORWARD -p icmp --icmp-type echo-request -d 192.168.6.0/24 -j DROP
+
+
+iptables -D FORWARD 1
+
+iptables -I FORWARD 1 -p icmp --icmp-type echo-request -d 192.168.6.0/24 -m limit --limit 5/min -j LOG --log-prefix "Ping rejected by lolcats: "
+
+... 3.3 ...
+
+iptables -A INPUT -j REJECT
+iptables -A OUTPUT -j REJECT
+iptables -A FORWARD -j REJECT
+
+iptables -I FORWARD 1 -s 192.168.6.0/24 -i eth0 -j ACCEPT # debug this!
+iptables -I INPUT -s 192.168.6.0/24 -i eth0 -j ACCEPT
+
+iptables -I OUTPUT 1 -s 192.168.6.1 -d 192.168.6.0/24 -j ACCEPT
+
+iptables -I OUTPUT -p tcp --sport 22 -j ACCEPT # make SSH from outside work
+
+iptables -I INPUT -p tcp --dport 22 -j ACCEPT
+
+
+//// REJECT problem (never seen on peripheral boxes( ////
+
+root@G2-firewall:/home/student# iptables -nL --line-numbers
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination
+1    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:22
+2    ACCEPT     all  --  192.168.6.0/24       0.0.0.0/0
+3    REJECT     all  --  0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination
+1    ACCEPT     all  --  192.168.6.0/24       0.0.0.0/0
+2    REJECT     all  --  0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination
+1    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            tcp spt:22
+2    ACCEPT     all  --  192.168.6.1          192.168.6.0/24
+3    REJECT     all  --  0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+... 3.3.4 ...
+
+
+iptables -I FORWARD 1 -s 192.168.6.0/24 -i eth0 -m conntrack --ctstate NEW,RELATED,ESTABLISHED -j ACCEPT
+iptables -I FORWARD 1 -d 192.168.6.0/24 -i eth1 -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+
+iptables -I FORWARD 1 -d 192.168.6.0/24 -i eth1 -p tcp --dport 7 -m conntrack --ctstate NEW,RELATED,ESTABLISHED -j ACCEPT  # out -> in
+iptables -I FORWARD 1 -d 192.168.6.0/24 -i eth1 -p udp --dport 7 -m conntrack --ctstate NEW,RELATED,ESTABLISHED -j ACCEPT  # out -> in
+
+iptables -I FORWARD 1 -i eth0 -p tcp --dport 135 -j REJECT # reject SMB request from internal network
+iptables -I FORWARD 1 -i eth0 -p udp --dport 135 -j REJECT # reject SMB request from internal network
+
+
+# iptables -nL --line-numbers
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination
+1    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:22
+2    ACCEPT     all  --  192.168.6.0/24       0.0.0.0/0
+3    REJECT     all  --  0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination
+1    REJECT     udp  --  0.0.0.0/0            0.0.0.0/0            udp dpt:135 reject-with icmp-port-unreachable
+2    REJECT     tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:135 reject-with icmp-port-unreachable
+3    ACCEPT     udp  --  0.0.0.0/0            192.168.6.0/24       udp dpt:7 ctstate NEW,RELATED,ESTABLISHED
+4    ACCEPT     tcp  --  0.0.0.0/0            192.168.6.0/24       tcp dpt:7 ctstate NEW,RELATED,ESTABLISHED
+5               tcp  --  0.0.0.0/0            192.168.6.0/24
+6               tcp  --  0.0.0.0/0            0.0.0.0/0
+7               tcp  --  0.0.0.0/0            192.168.6.0/24
+8    ACCEPT     all  --  0.0.0.0/0            192.168.6.0/24       ctstate RELATED,ESTABLISHED
+9    ACCEPT     all  --  192.168.6.0/24       0.0.0.0/0            ctstate NEW,RELATED,ESTABLISHED
+10   REJECT     all  --  0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination
+1    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            tcp spt:22
+2    ACCEPT     all  --  192.168.6.1          192.168.6.0/24
+3    REJECT     all  --  0.0.0.0/0            0.0.0.0/0            reject-with icmp-port-unreachable
+
+... 3.3.8 ...
+
+iptables -N SSH
+iptables -I OUTPUT -m conntrack --ctstate NEW,RELATED,ESTABLISHED -j ACCEPT # glue, first for speed!
+iptables -I INPUT -p tcp -m tcp --dport 22 -j SSH # glue from INPUT to SSH
+
+iptables -A SSH -p tcp --dport 22 -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT # allow established connections!
+iptables -A SSH -p tcp --dport 22 -m conntrack --ctstate NEW -m state --state NEW -m recent --name SSH_COUNTER --update --seconds 30 --hitcount 5 -j DROP
+iptables -A SSH -p tcp --dport 22 -m conntrack --ctstate NEW -m state --state NEW -m recent --name SSH_COUNTER --update --seconds 30 --hitcount 4 -j LOG --log-prefix "SSH brute force attacker: "
+iptables -A SSH -p tcp --dport 22 -m conntrack --ctstate NEW -m state --state NEW -m recent --name SSH_COUNTER --update --seconds 30 --hitcount 4 -j DROP
+iptables -A SSH -p tcp --dport 22 -m conntrack --ctstate NEW -m state --state NEW -m recent --name SSH_COUNTER --set
+iptables -A SSH -j ACCEPT  # should be safe enough now ;)
+
+
+... 4.3 ...
+
+# time nmap --min-rate=600000 -PR -n 10.6.0.0/16
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2015-11-16 13:39 CET
+Stats: 0:00:02 elapsed; 4095 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 93.05% done; ETC: 13:39 (0:00:00 remaining)
+Nmap scan report for 10.6.0.1
+Host is up (0.00043s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+7/tcp  open  echo
+22/tcp open  ssh
+MAC Address: 00:16:3E:3E:06:03 (Xensource)
+
+Stats: 0:00:05 elapsed; 8192 hosts completed (2 up), 4096 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 50.00% done; ETC: 13:39 (0:00:00 remaining)
+Stats: 0:00:07 elapsed; 12404 hosts completed (2 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.99% done; ETC: 13:39 (0:00:00 remaining)
+Nmap scan report for 10.6.0.2
+Host is up (0.000015s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+7/tcp  open  echo
+22/tcp open  ssh
+
+Stats: 0:00:25 elapsed; 53248 hosts completed (3 up), 4096 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 50.00% done; ETC: 13:40 (0:00:00 remaining)
+Stats: 0:00:27 elapsed; 57344 hosts completed (3 up), 4096 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 50.00% done; ETC: 13:40 (0:00:01 remaining)
+Stats: 0:00:28 elapsed; 61440 hosts completed (3 up), 4095 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 50.00% done; ETC: 13:40 (0:00:00 remaining)
+Nmap scan report for 10.6.48.117
+Host is up (0.0015s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+7/tcp    open  echo
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+5222/tcp open  xmpp-client
+5269/tcp open  xmpp-server
+5280/tcp open  xmpp-bosh
+MAC Address: 00:16:3E:3E:06:10 (Xensource)
+
+Nmap done: 65536 IP addresses (3 hosts up) scanned in 30.23 seconds
+
+real    0m30.259s
+user    0m16.816s
+sys     0m11.920s
+
+...
+
+nmap --min-rate=6000 --max-retries 1 -F -n -sU 10.6.48.11
+
+nmap --min-rate=6000 --max-retries 1 -n -sU -sV -p7,53,123 10.6.48.117
+
+nmap -n -O -p22 10.6.48.117
+
+nmap -n -O -Pn --max-retries 1 --min-rate=10000 10.6.48.117
+
+nmap -n -O -F -Pn --max-retries 1 --min-rate=10000 --fuzzy 10.6.48.117
+
+
+
+
+
+
+
+
+
+

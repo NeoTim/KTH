@@ -1,0 +1,19 @@
+function partDistM(A, B, m, n):
+    declare M[0..m, 0..n]
+
+    initialize each element of M to 0
+
+    for i from 1 to m:
+        M[i, 0] := i
+
+    for j from 1 to n:
+        M[0, j] := j
+
+    for i from m to 0:
+        for j from n to 0:
+            if A[i-1] = B[j-1]:
+                M[i][j] := M[i-1][j-1]
+            else:
+                M[i][j] := 1 + min(M[i][j-1], M[i-1][j], M[i-1][j-1])
+
+    return M[m][n]

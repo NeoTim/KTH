@@ -1,0 +1,820 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    192.168.0.13          192.168.0.18          TCP      74     47183→1234 [SYN] Seq=0 Win=5840 Len=0 MSS=1460 SACK_PERM=1 TSval=2024505 TSecr=0 WS=32
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000098000    192.168.0.18          192.168.0.13          TCP      74     1234→47183 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=36529031 TSecr=2024505 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 1234 (1234), Dst Port: 47183 (47183), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.001265000    192.168.0.13          192.168.0.18          TCP      66     47183→1234 [ACK] Seq=1 Ack=1 Win=5856 Len=0 TSval=2024505 TSecr=36529031
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.001270000    192.168.0.13          192.168.0.18          TCP      1066   47183→1234 [PSH, ACK] Seq=1 Ack=1 Win=5856 Len=1000 TSval=2024505 TSecr=36529031
+
+Frame 4: 1066 bytes on wire (8528 bits), 1066 bytes captured (8528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 1, Ack: 1, Len: 1000
+Data (1000 bytes)
+
+0000  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0010  30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f   0123456789:;<=>?
+0020  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0030  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+0040  60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   `abcdefghijklmno
+0050  70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20   pqrstuvwxyz{|}~ 
+0060  21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30   !"#$%&'()*+,-./0
+0070  31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40   123456789:;<=>?@
+0080  41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50   ABCDEFGHIJKLMNOP
+0090  51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60   QRSTUVWXYZ[\]^_`
+00a0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+00b0  71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21   qrstuvwxyz{|}~ !
+00c0  22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31   "#$%&'()*+,-./01
+00d0  32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41   23456789:;<=>?@A
+00e0  42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51   BCDEFGHIJKLMNOPQ
+00f0  52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61   RSTUVWXYZ[\]^_`a
+0100  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0110  72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22   rstuvwxyz{|}~ !"
+0120  23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32   #$%&'()*+,-./012
+0130  33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42   3456789:;<=>?@AB
+0140  43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52   CDEFGHIJKLMNOPQR
+0150  53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62   STUVWXYZ[\]^_`ab
+0160  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0170  73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23   stuvwxyz{|}~ !"#
+0180  24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33   $%&'()*+,-./0123
+0190  34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43   456789:;<=>?@ABC
+01a0  44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53   DEFGHIJKLMNOPQRS
+01b0  54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63   TUVWXYZ[\]^_`abc
+01c0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+01d0  74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24   tuvwxyz{|}~ !"#$
+01e0  25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34   %&'()*+,-./01234
+01f0  35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44   56789:;<=>?@ABCD
+0200  45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54   EFGHIJKLMNOPQRST
+0210  55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64   UVWXYZ[\]^_`abcd
+0220  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0230  75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25   uvwxyz{|}~ !"#$%
+0240  26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35   &'()*+,-./012345
+0250  36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45   6789:;<=>?@ABCDE
+0260  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0270  56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65   VWXYZ[\]^_`abcde
+0280  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0290  76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26   vwxyz{|}~ !"#$%&
+02a0  27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36   '()*+,-./0123456
+02b0  37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46   789:;<=>?@ABCDEF
+02c0  47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56   GHIJKLMNOPQRSTUV
+02d0  57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66   WXYZ[\]^_`abcdef
+02e0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+02f0  77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27   wxyz{|}~ !"#$%&'
+0300  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+0310  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+0320  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+0330  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+0340  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0350  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+0360  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+0370  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+0380  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+0390  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+03a0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+03b0  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+03c0  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+03d0  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+03e0  4a 4b 4c 4d 4e 4f 50 51                           JKLMNOPQ
+    Data: 202122232425262728292a2b2c2d2e2f3031323334353637...
+    [Length: 1000]
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.001451000    192.168.0.18          192.168.0.13          TCP      66     1234→47183 [ACK] Seq=1 Ack=1001 Win=31872 Len=0 TSval=36529031 TSecr=2024505
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 1234 (1234), Dst Port: 47183 (47183), Seq: 1, Ack: 1001, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.002508000    192.168.0.13          192.168.0.18          TCP      1514   47183→1234 [ACK] Seq=1001 Ack=1 Win=5856 Len=1448 TSval=2024505 TSecr=36529031
+
+Frame 6: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 1001, Ack: 1, Len: 1448
+Data (1448 bytes)
+
+0000  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0010  30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f   0123456789:;<=>?
+0020  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0030  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+0040  60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   `abcdefghijklmno
+0050  70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20   pqrstuvwxyz{|}~ 
+0060  21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30   !"#$%&'()*+,-./0
+0070  31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40   123456789:;<=>?@
+0080  41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50   ABCDEFGHIJKLMNOP
+0090  51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60   QRSTUVWXYZ[\]^_`
+00a0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+00b0  71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21   qrstuvwxyz{|}~ !
+00c0  22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31   "#$%&'()*+,-./01
+00d0  32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41   23456789:;<=>?@A
+00e0  42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51   BCDEFGHIJKLMNOPQ
+00f0  52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61   RSTUVWXYZ[\]^_`a
+0100  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0110  72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22   rstuvwxyz{|}~ !"
+0120  23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32   #$%&'()*+,-./012
+0130  33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42   3456789:;<=>?@AB
+0140  43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52   CDEFGHIJKLMNOPQR
+0150  53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62   STUVWXYZ[\]^_`ab
+0160  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0170  73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23   stuvwxyz{|}~ !"#
+0180  24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33   $%&'()*+,-./0123
+0190  34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43   456789:;<=>?@ABC
+01a0  44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53   DEFGHIJKLMNOPQRS
+01b0  54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63   TUVWXYZ[\]^_`abc
+01c0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+01d0  74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24   tuvwxyz{|}~ !"#$
+01e0  25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34   %&'()*+,-./01234
+01f0  35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44   56789:;<=>?@ABCD
+0200  45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54   EFGHIJKLMNOPQRST
+0210  55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64   UVWXYZ[\]^_`abcd
+0220  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0230  75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25   uvwxyz{|}~ !"#$%
+0240  26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35   &'()*+,-./012345
+0250  36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45   6789:;<=>?@ABCDE
+0260  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0270  56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65   VWXYZ[\]^_`abcde
+0280  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0290  76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26   vwxyz{|}~ !"#$%&
+02a0  27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36   '()*+,-./0123456
+02b0  37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46   789:;<=>?@ABCDEF
+02c0  47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56   GHIJKLMNOPQRSTUV
+02d0  57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66   WXYZ[\]^_`abcdef
+02e0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+02f0  77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27   wxyz{|}~ !"#$%&'
+0300  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+0310  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+0320  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+0330  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+0340  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0350  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+0360  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+0370  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+0380  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+0390  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+03a0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+03b0  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+03c0  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+03d0  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+03e0  4a 4b 4c 4d 4e 4f 50 51 20 21 22 23 24 25 26 27   JKLMNOPQ !"#$%&'
+03f0  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+0400  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+0410  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+0420  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+0430  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0440  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+0450  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+0460  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+0470  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+0480  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+0490  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+04a0  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+04b0  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+04c0  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+04d0  4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59   JKLMNOPQRSTUVWXY
+04e0  5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69   Z[\]^_`abcdefghi
+04f0  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79   jklmnopqrstuvwxy
+0500  7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a   z{|}~ !"#$%&'()*
+0510  2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a   +,-./0123456789:
+0520  3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a   ;<=>?@ABCDEFGHIJ
+0530  4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a   KLMNOPQRSTUVWXYZ
+0540  5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a   [\]^_`abcdefghij
+0550  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a   klmnopqrstuvwxyz
+0560  7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b   {|}~ !"#$%&'()*+
+0570  2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b   ,-./0123456789:;
+0580  3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b   <=>?@ABCDEFGHIJK
+0590  4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b   LMNOPQRSTUVWXYZ[
+05a0  5c 5d 5e 5f 60 61 62 63                           \]^_`abc
+    Data: 202122232425262728292a2b2c2d2e2f3031323334353637...
+    [Length: 1448]
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.002514000    192.168.0.13          192.168.0.18          TCP      1514   47183→1234 [ACK] Seq=2449 Ack=1 Win=5856 Len=1448 TSval=2024505 TSecr=36529031
+
+Frame 7: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 2449, Ack: 1, Len: 1448
+Data (1448 bytes)
+
+0000  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0010  74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24   tuvwxyz{|}~ !"#$
+0020  25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34   %&'()*+,-./01234
+0030  35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44   56789:;<=>?@ABCD
+0040  45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54   EFGHIJKLMNOPQRST
+0050  55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64   UVWXYZ[\]^_`abcd
+0060  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0070  75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25   uvwxyz{|}~ !"#$%
+0080  26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35   &'()*+,-./012345
+0090  36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45   6789:;<=>?@ABCDE
+00a0  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+00b0  56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65   VWXYZ[\]^_`abcde
+00c0  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+00d0  76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26   vwxyz{|}~ !"#$%&
+00e0  27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36   '()*+,-./0123456
+00f0  37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46   789:;<=>?@ABCDEF
+0100  47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56   GHIJKLMNOPQRSTUV
+0110  57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66   WXYZ[\]^_`abcdef
+0120  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0130  77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27   wxyz{|}~ !"#$%&'
+0140  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+0150  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+0160  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+0170  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+0180  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0190  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+01a0  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+01b0  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+01c0  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+01d0  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+01e0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+01f0  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+0200  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+0210  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+0220  4a 4b 4c 4d 4e 4f 50 51 20 21 22 23 24 25 26 27   JKLMNOPQ !"#$%&'
+0230  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+0240  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+0250  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+0260  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+0270  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0280  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+0290  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+02a0  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+02b0  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+02c0  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+02d0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+02e0  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+02f0  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+0300  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+0310  4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59   JKLMNOPQRSTUVWXY
+0320  5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69   Z[\]^_`abcdefghi
+0330  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79   jklmnopqrstuvwxy
+0340  7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a   z{|}~ !"#$%&'()*
+0350  2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a   +,-./0123456789:
+0360  3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a   ;<=>?@ABCDEFGHIJ
+0370  4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a   KLMNOPQRSTUVWXYZ
+0380  5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a   [\]^_`abcdefghij
+0390  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a   klmnopqrstuvwxyz
+03a0  7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b   {|}~ !"#$%&'()*+
+03b0  2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b   ,-./0123456789:;
+03c0  3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b   <=>?@ABCDEFGHIJK
+03d0  4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b   LMNOPQRSTUVWXYZ[
+03e0  5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b   \]^_`abcdefghijk
+03f0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b   lmnopqrstuvwxyz{
+0400  7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c   |}~ !"#$%&'()*+,
+0410  2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c   -./0123456789:;<
+0420  3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c   =>?@ABCDEFGHIJKL
+0430  4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c   MNOPQRSTUVWXYZ[\
+0440  5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c   ]^_`abcdefghijkl
+0450  6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c   mnopqrstuvwxyz{|
+0460  7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d   }~ !"#$%&'()*+,-
+0470  2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d   ./0123456789:;<=
+0480  3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d   >?@ABCDEFGHIJKLM
+0490  4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d   NOPQRSTUVWXYZ[\]
+04a0  5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   ^_`abcdefghijklm
+04b0  6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d   nopqrstuvwxyz{|}
+04c0  7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e   ~ !"#$%&'()*+,-.
+04d0  2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e   /0123456789:;<=>
+04e0  3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e   ?@ABCDEFGHIJKLMN
+04f0  4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e   OPQRSTUVWXYZ[\]^
+0500  5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   _`abcdefghijklmn
+0510  6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e   opqrstuvwxyz{|}~
+0520  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0530  30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f   0123456789:;<=>?
+0540  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0550  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+0560  60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   `abcdefghijklmno
+0570  70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20   pqrstuvwxyz{|}~ 
+0580  21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30   !"#$%&'()*+,-./0
+0590  31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40   123456789:;<=>?@
+05a0  41 42 43 44 45 46 47 48                           ABCDEFGH
+    Data: 6465666768696a6b6c6d6e6f707172737475767778797a7b...
+    [Length: 1448]
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.002622000    192.168.0.18          192.168.0.13          TCP      66     1234→47183 [ACK] Seq=1 Ack=2449 Win=34816 Len=0 TSval=36529031 TSecr=2024505
+
+Frame 8: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 1234 (1234), Dst Port: 47183 (47183), Seq: 1, Ack: 2449, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.002696000    192.168.0.18          192.168.0.13          TCP      66     1234→47183 [ACK] Seq=1 Ack=3897 Win=37760 Len=0 TSval=36529031 TSecr=2024505
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 1234 (1234), Dst Port: 47183 (47183), Seq: 1, Ack: 3897, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.003917000    192.168.0.13          192.168.0.18          TCP      1514   47183→1234 [ACK] Seq=3897 Ack=1 Win=5856 Len=1448 TSval=2024506 TSecr=36529031
+
+Frame 10: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 3897, Ack: 1, Len: 1448
+Data (1448 bytes)
+
+0000  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+0010  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+0020  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+0030  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+0040  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+0050  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+0060  4a 4b 4c 4d 4e 4f 50 51 20 21 22 23 24 25 26 27   JKLMNOPQ !"#$%&'
+0070  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+0080  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+0090  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+00a0  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+00b0  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+00c0  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+00d0  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+00e0  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+00f0  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+0100  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+0110  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+0120  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+0130  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+0140  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+0150  4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59   JKLMNOPQRSTUVWXY
+0160  5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69   Z[\]^_`abcdefghi
+0170  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79   jklmnopqrstuvwxy
+0180  7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a   z{|}~ !"#$%&'()*
+0190  2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a   +,-./0123456789:
+01a0  3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a   ;<=>?@ABCDEFGHIJ
+01b0  4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a   KLMNOPQRSTUVWXYZ
+01c0  5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a   [\]^_`abcdefghij
+01d0  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a   klmnopqrstuvwxyz
+01e0  7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b   {|}~ !"#$%&'()*+
+01f0  2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b   ,-./0123456789:;
+0200  3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b   <=>?@ABCDEFGHIJK
+0210  4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b   LMNOPQRSTUVWXYZ[
+0220  5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b   \]^_`abcdefghijk
+0230  6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b   lmnopqrstuvwxyz{
+0240  7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c   |}~ !"#$%&'()*+,
+0250  2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c   -./0123456789:;<
+0260  3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c   =>?@ABCDEFGHIJKL
+0270  4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c   MNOPQRSTUVWXYZ[\
+0280  5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c   ]^_`abcdefghijkl
+0290  6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c   mnopqrstuvwxyz{|
+02a0  7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d   }~ !"#$%&'()*+,-
+02b0  2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d   ./0123456789:;<=
+02c0  3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d   >?@ABCDEFGHIJKLM
+02d0  4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d   NOPQRSTUVWXYZ[\]
+02e0  5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   ^_`abcdefghijklm
+02f0  6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d   nopqrstuvwxyz{|}
+0300  7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e   ~ !"#$%&'()*+,-.
+0310  2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e   /0123456789:;<=>
+0320  3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e   ?@ABCDEFGHIJKLMN
+0330  4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e   OPQRSTUVWXYZ[\]^
+0340  5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   _`abcdefghijklmn
+0350  6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e   opqrstuvwxyz{|}~
+0360  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0370  30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f   0123456789:;<=>?
+0380  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0390  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+03a0  60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   `abcdefghijklmno
+03b0  70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20   pqrstuvwxyz{|}~ 
+03c0  21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30   !"#$%&'()*+,-./0
+03d0  31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40   123456789:;<=>?@
+03e0  41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50   ABCDEFGHIJKLMNOP
+03f0  51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60   QRSTUVWXYZ[\]^_`
+0400  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0410  71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21   qrstuvwxyz{|}~ !
+0420  22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31   "#$%&'()*+,-./01
+0430  32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41   23456789:;<=>?@A
+0440  42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51   BCDEFGHIJKLMNOPQ
+0450  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0460  30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f   0123456789:;<=>?
+0470  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0480  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+0490  60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   `abcdefghijklmno
+04a0  70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20   pqrstuvwxyz{|}~ 
+04b0  21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30   !"#$%&'()*+,-./0
+04c0  31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40   123456789:;<=>?@
+04d0  41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50   ABCDEFGHIJKLMNOP
+04e0  51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60   QRSTUVWXYZ[\]^_`
+04f0  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0500  71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21   qrstuvwxyz{|}~ !
+0510  22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31   "#$%&'()*+,-./01
+0520  32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41   23456789:;<=>?@A
+0530  42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51   BCDEFGHIJKLMNOPQ
+0540  52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61   RSTUVWXYZ[\]^_`a
+0550  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0560  72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22   rstuvwxyz{|}~ !"
+0570  23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32   #$%&'()*+,-./012
+0580  33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42   3456789:;<=>?@AB
+0590  43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52   CDEFGHIJKLMNOPQR
+05a0  53 54 55 56 57 58 59 5a                           STUVWXYZ
+    Data: 494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f60...
+    [Length: 1448]
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.003924000    192.168.0.13          192.168.0.18          TCP      1514   47183→1234 [ACK] Seq=5345 Ack=1 Win=5856 Len=1448 TSval=2024506 TSecr=36529031
+
+Frame 11: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 5345, Ack: 1, Len: 1448
+Data (1448 bytes)
+
+0000  5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a   [\]^_`abcdefghij
+0010  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a   klmnopqrstuvwxyz
+0020  7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b   {|}~ !"#$%&'()*+
+0030  2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b   ,-./0123456789:;
+0040  3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b   <=>?@ABCDEFGHIJK
+0050  4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b   LMNOPQRSTUVWXYZ[
+0060  5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b   \]^_`abcdefghijk
+0070  6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b   lmnopqrstuvwxyz{
+0080  7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c   |}~ !"#$%&'()*+,
+0090  2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c   -./0123456789:;<
+00a0  3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c   =>?@ABCDEFGHIJKL
+00b0  4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c   MNOPQRSTUVWXYZ[\
+00c0  5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c   ]^_`abcdefghijkl
+00d0  6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c   mnopqrstuvwxyz{|
+00e0  7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d   }~ !"#$%&'()*+,-
+00f0  2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d   ./0123456789:;<=
+0100  3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d   >?@ABCDEFGHIJKLM
+0110  4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d   NOPQRSTUVWXYZ[\]
+0120  5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   ^_`abcdefghijklm
+0130  6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d   nopqrstuvwxyz{|}
+0140  7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e   ~ !"#$%&'()*+,-.
+0150  2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e   /0123456789:;<=>
+0160  3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e   ?@ABCDEFGHIJKLMN
+0170  4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e   OPQRSTUVWXYZ[\]^
+0180  5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e   _`abcdefghijklmn
+0190  6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e   opqrstuvwxyz{|}~
+01a0  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+01b0  30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f   0123456789:;<=>?
+01c0  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+01d0  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+01e0  60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   `abcdefghijklmno
+01f0  70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20   pqrstuvwxyz{|}~ 
+0200  21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30   !"#$%&'()*+,-./0
+0210  31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40   123456789:;<=>?@
+0220  41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50   ABCDEFGHIJKLMNOP
+0230  51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60   QRSTUVWXYZ[\]^_`
+0240  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0250  71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21   qrstuvwxyz{|}~ !
+0260  22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31   "#$%&'()*+,-./01
+0270  32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41   23456789:;<=>?@A
+0280  42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51   BCDEFGHIJKLMNOPQ
+0290  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+02a0  30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f   0123456789:;<=>?
+02b0  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+02c0  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+02d0  60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   `abcdefghijklmno
+02e0  70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20   pqrstuvwxyz{|}~ 
+02f0  21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30   !"#$%&'()*+,-./0
+0300  31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40   123456789:;<=>?@
+0310  41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50   ABCDEFGHIJKLMNOP
+0320  51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60   QRSTUVWXYZ[\]^_`
+0330  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0340  71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21   qrstuvwxyz{|}~ !
+0350  22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31   "#$%&'()*+,-./01
+0360  32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41   23456789:;<=>?@A
+0370  42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51   BCDEFGHIJKLMNOPQ
+0380  52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61   RSTUVWXYZ[\]^_`a
+0390  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+03a0  72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22   rstuvwxyz{|}~ !"
+03b0  23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32   #$%&'()*+,-./012
+03c0  33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42   3456789:;<=>?@AB
+03d0  43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52   CDEFGHIJKLMNOPQR
+03e0  53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62   STUVWXYZ[\]^_`ab
+03f0  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0400  73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23   stuvwxyz{|}~ !"#
+0410  24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33   $%&'()*+,-./0123
+0420  34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43   456789:;<=>?@ABC
+0430  44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53   DEFGHIJKLMNOPQRS
+0440  54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63   TUVWXYZ[\]^_`abc
+0450  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+0460  74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24   tuvwxyz{|}~ !"#$
+0470  25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34   %&'()*+,-./01234
+0480  35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44   56789:;<=>?@ABCD
+0490  45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54   EFGHIJKLMNOPQRST
+04a0  55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64   UVWXYZ[\]^_`abcd
+04b0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+04c0  75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25   uvwxyz{|}~ !"#$%
+04d0  26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35   &'()*+,-./012345
+04e0  36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45   6789:;<=>?@ABCDE
+04f0  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0500  56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65   VWXYZ[\]^_`abcde
+0510  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0520  76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26   vwxyz{|}~ !"#$%&
+0530  27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36   '()*+,-./0123456
+0540  37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46   789:;<=>?@ABCDEF
+0550  47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56   GHIJKLMNOPQRSTUV
+0560  57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66   WXYZ[\]^_`abcdef
+0570  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0580  77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27   wxyz{|}~ !"#$%&'
+0590  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+05a0  38 39 3a 3b 3c 3d 3e 3f                           89:;<=>?
+    Data: 5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172...
+    [Length: 1448]
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.003937000    192.168.0.13          192.168.0.18          TCP      1514   47183→1234 [ACK] Seq=6793 Ack=1 Win=5856 Len=1448 TSval=2024506 TSecr=36529031
+
+Frame 12: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 6793, Ack: 1, Len: 1448
+Data (1448 bytes)
+
+0000  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0010  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+0020  60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   `abcdefghijklmno
+0030  70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20   pqrstuvwxyz{|}~ 
+0040  21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30   !"#$%&'()*+,-./0
+0050  31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40   123456789:;<=>?@
+0060  41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50   ABCDEFGHIJKLMNOP
+0070  51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60   QRSTUVWXYZ[\]^_`
+0080  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0090  71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21   qrstuvwxyz{|}~ !
+00a0  22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31   "#$%&'()*+,-./01
+00b0  32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41   23456789:;<=>?@A
+00c0  42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51   BCDEFGHIJKLMNOPQ
+00d0  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+00e0  30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f   0123456789:;<=>?
+00f0  40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f   @ABCDEFGHIJKLMNO
+0100  50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f   PQRSTUVWXYZ[\]^_
+0110  60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f   `abcdefghijklmno
+0120  70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20   pqrstuvwxyz{|}~ 
+0130  21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30   !"#$%&'()*+,-./0
+0140  31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40   123456789:;<=>?@
+0150  41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50   ABCDEFGHIJKLMNOP
+0160  51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60   QRSTUVWXYZ[\]^_`
+0170  61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70   abcdefghijklmnop
+0180  71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21   qrstuvwxyz{|}~ !
+0190  22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31   "#$%&'()*+,-./01
+01a0  32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41   23456789:;<=>?@A
+01b0  42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51   BCDEFGHIJKLMNOPQ
+01c0  52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61   RSTUVWXYZ[\]^_`a
+01d0  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+01e0  72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22   rstuvwxyz{|}~ !"
+01f0  23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32   #$%&'()*+,-./012
+0200  33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42   3456789:;<=>?@AB
+0210  43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52   CDEFGHIJKLMNOPQR
+0220  53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62   STUVWXYZ[\]^_`ab
+0230  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0240  73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23   stuvwxyz{|}~ !"#
+0250  24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33   $%&'()*+,-./0123
+0260  34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43   456789:;<=>?@ABC
+0270  44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53   DEFGHIJKLMNOPQRS
+0280  54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63   TUVWXYZ[\]^_`abc
+0290  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+02a0  74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24   tuvwxyz{|}~ !"#$
+02b0  25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34   %&'()*+,-./01234
+02c0  35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44   56789:;<=>?@ABCD
+02d0  45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54   EFGHIJKLMNOPQRST
+02e0  55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64   UVWXYZ[\]^_`abcd
+02f0  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0300  75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25   uvwxyz{|}~ !"#$%
+0310  26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35   &'()*+,-./012345
+0320  36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45   6789:;<=>?@ABCDE
+0330  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0340  56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65   VWXYZ[\]^_`abcde
+0350  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+0360  76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26   vwxyz{|}~ !"#$%&
+0370  27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36   '()*+,-./0123456
+0380  37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46   789:;<=>?@ABCDEF
+0390  47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56   GHIJKLMNOPQRSTUV
+03a0  57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66   WXYZ[\]^_`abcdef
+03b0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+03c0  77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27   wxyz{|}~ !"#$%&'
+03d0  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+03e0  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+03f0  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+0400  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+0410  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0420  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+0430  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+0440  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+0450  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+0460  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+0470  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+0480  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+0490  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+04a0  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+04b0  4a 4b 4c 4d 4e 4f 50 51 20 21 22 23 24 25 26 27   JKLMNOPQ !"#$%&'
+04c0  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+04d0  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+04e0  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+04f0  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+0500  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0510  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+0520  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+0530  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+0540  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+0550  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+0560  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+0570  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+0580  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+0590  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+05a0  4a 4b 4c 4d 4e 4f 50 51                           JKLMNOPQ
+    Data: 404142434445464748494a4b4c4d4e4f5051525354555657...
+    [Length: 1448]
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.003942000    192.168.0.13          192.168.0.18          TCP      1514   47183→1234 [ACK] Seq=8241 Ack=1 Win=5856 Len=1448 TSval=2024506 TSecr=36529031
+
+Frame 13: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 8241, Ack: 1, Len: 1448
+Data (1448 bytes)
+
+0000  52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61   RSTUVWXYZ[\]^_`a
+0010  62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71   bcdefghijklmnopq
+0020  72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22   rstuvwxyz{|}~ !"
+0030  23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32   #$%&'()*+,-./012
+0040  33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42   3456789:;<=>?@AB
+0050  43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52   CDEFGHIJKLMNOPQR
+0060  53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62   STUVWXYZ[\]^_`ab
+0070  63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72   cdefghijklmnopqr
+0080  73 74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23   stuvwxyz{|}~ !"#
+0090  24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33   $%&'()*+,-./0123
+00a0  34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43   456789:;<=>?@ABC
+00b0  44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53   DEFGHIJKLMNOPQRS
+00c0  54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63   TUVWXYZ[\]^_`abc
+00d0  64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73   defghijklmnopqrs
+00e0  74 75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24   tuvwxyz{|}~ !"#$
+00f0  25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34   %&'()*+,-./01234
+0100  35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44   56789:;<=>?@ABCD
+0110  45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54   EFGHIJKLMNOPQRST
+0120  55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64   UVWXYZ[\]^_`abcd
+0130  65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74   efghijklmnopqrst
+0140  75 76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25   uvwxyz{|}~ !"#$%
+0150  26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35   &'()*+,-./012345
+0160  36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45   6789:;<=>?@ABCDE
+0170  46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55   FGHIJKLMNOPQRSTU
+0180  56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65   VWXYZ[\]^_`abcde
+0190  66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75   fghijklmnopqrstu
+01a0  76 77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26   vwxyz{|}~ !"#$%&
+01b0  27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36   '()*+,-./0123456
+01c0  37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46   789:;<=>?@ABCDEF
+01d0  47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56   GHIJKLMNOPQRSTUV
+01e0  57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66   WXYZ[\]^_`abcdef
+01f0  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0200  77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27   wxyz{|}~ !"#$%&'
+0210  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+0220  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+0230  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+0240  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+0250  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0260  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+0270  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+0280  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+0290  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+02a0  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+02b0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+02c0  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+02d0  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+02e0  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+02f0  4a 4b 4c 4d 4e 4f 50 51 20 21 22 23 24 25 26 27   JKLMNOPQ !"#$%&'
+0300  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+0310  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+0320  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+0330  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+0340  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+0350  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+0360  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+0370  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+0380  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+0390  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+03a0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+03b0  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+03c0  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+03d0  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+03e0  4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59   JKLMNOPQRSTUVWXY
+03f0  5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69   Z[\]^_`abcdefghi
+0400  6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79   jklmnopqrstuvwxy
+0410  7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a   z{|}~ !"#$%&'()*
+0420  2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a   +,-./0123456789:
+0430  3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a   ;<=>?@ABCDEFGHIJ
+0440  4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a   KLMNOPQRSTUVWXYZ
+0450  5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a   [\]^_`abcdefghij
+0460  6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a   klmnopqrstuvwxyz
+0470  7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b   {|}~ !"#$%&'()*+
+0480  2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b   ,-./0123456789:;
+0490  3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b   <=>?@ABCDEFGHIJK
+04a0  4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b   LMNOPQRSTUVWXYZ[
+04b0  5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b   \]^_`abcdefghijk
+04c0  6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b   lmnopqrstuvwxyz{
+04d0  7c 7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c   |}~ !"#$%&'()*+,
+04e0  2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c   -./0123456789:;<
+04f0  3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c   =>?@ABCDEFGHIJKL
+0500  4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c   MNOPQRSTUVWXYZ[\
+0510  5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c   ]^_`abcdefghijkl
+0520  6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c   mnopqrstuvwxyz{|
+0530  7d 7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d   }~ !"#$%&'()*+,-
+0540  2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d   ./0123456789:;<=
+0550  3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d   >?@ABCDEFGHIJKLM
+0560  4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d   NOPQRSTUVWXYZ[\]
+0570  5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d   ^_`abcdefghijklm
+0580  6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d   nopqrstuvwxyz{|}
+0590  7e 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e   ~ !"#$%&'()*+,-.
+05a0  2f 30 31 32 33 34 35 36                           /0123456
+    Data: 52535455565758595a5b5c5d5e5f60616263646566676869...
+    [Length: 1448]
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.003945000    192.168.0.13          192.168.0.18          TCP      378    47183→1234 [FIN, PSH, ACK] Seq=9689 Ack=1 Win=5856 Len=312 TSval=2024506 TSecr=36529031
+
+Frame 14: 378 bytes on wire (3024 bits), 378 bytes captured (3024 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 9689, Ack: 1, Len: 312
+Data (312 bytes)
+
+0000  37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46   789:;<=>?@ABCDEF
+0010  47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56   GHIJKLMNOPQRSTUV
+0020  57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66   WXYZ[\]^_`abcdef
+0030  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0040  77 78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27   wxyz{|}~ !"#$%&'
+0050  28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37   ()*+,-./01234567
+0060  38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47   89:;<=>?@ABCDEFG
+0070  48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57   HIJKLMNOPQRSTUVW
+0080  58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67   XYZ[\]^_`abcdefg
+0090  68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77   hijklmnopqrstuvw
+00a0  78 79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28   xyz{|}~ !"#$%&'(
+00b0  29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38   )*+,-./012345678
+00c0  39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48   9:;<=>?@ABCDEFGH
+00d0  49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58   IJKLMNOPQRSTUVWX
+00e0  59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68   YZ[\]^_`abcdefgh
+00f0  69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78   ijklmnopqrstuvwx
+0100  79 7a 7b 7c 7d 7e 20 21 22 23 24 25 26 27 28 29   yz{|}~ !"#$%&'()
+0110  2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39   *+,-./0123456789
+0120  3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49   :;<=>?@ABCDEFGHI
+0130  4a 4b 4c 4d 4e 4f 50 51                           JKLMNOPQ
+    Data: 3738393a3b3c3d3e3f404142434445464748494a4b4c4d4e...
+    [Length: 312]
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.004115000    192.168.0.18          192.168.0.13          TCP      66     1234→47183 [ACK] Seq=1 Ack=5345 Win=40576 Len=0 TSval=36529032 TSecr=2024506
+
+Frame 15: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 1234 (1234), Dst Port: 47183 (47183), Seq: 1, Ack: 5345, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.004194000    192.168.0.18          192.168.0.13          TCP      66     1234→47183 [ACK] Seq=1 Ack=6793 Win=43520 Len=0 TSval=36529032 TSecr=2024506
+
+Frame 16: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 1234 (1234), Dst Port: 47183 (47183), Seq: 1, Ack: 6793, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.004291000    192.168.0.18          192.168.0.13          TCP      66     1234→47183 [ACK] Seq=1 Ack=8241 Win=46336 Len=0 TSval=36529032 TSecr=2024506
+
+Frame 17: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 1234 (1234), Dst Port: 47183 (47183), Seq: 1, Ack: 8241, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.004360000    192.168.0.18          192.168.0.13          TCP      66     1234→47183 [ACK] Seq=1 Ack=9689 Win=49280 Len=0 TSval=36529032 TSecr=2024506
+
+Frame 18: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 1234 (1234), Dst Port: 47183 (47183), Seq: 1, Ack: 9689, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 0.005351000    192.168.0.18          192.168.0.13          TCP      66     1234→47183 [FIN, ACK] Seq=1 Ack=10002 Win=52224 Len=0 TSval=36529032 TSecr=2024506
+
+Frame 19: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Apple_56:df:7b (b8:8d:12:56:df:7b), Dst: Intel_3e:be:9c (00:02:b3:3e:be:9c)
+Internet Protocol Version 4, Src: 192.168.0.18 (192.168.0.18), Dst: 192.168.0.13 (192.168.0.13)
+Transmission Control Protocol, Src Port: 1234 (1234), Dst Port: 47183 (47183), Seq: 1, Ack: 10002, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.006975000    192.168.0.13          192.168.0.18          TCP      66     47183→1234 [ACK] Seq=10002 Ack=2 Win=5856 Len=0 TSval=2024507 TSecr=36529032
+
+Frame 20: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Intel_3e:be:9c (00:02:b3:3e:be:9c), Dst: Apple_56:df:7b (b8:8d:12:56:df:7b)
+Internet Protocol Version 4, Src: 192.168.0.13 (192.168.0.13), Dst: 192.168.0.18 (192.168.0.18)
+Transmission Control Protocol, Src Port: 47183 (47183), Dst Port: 1234 (1234), Seq: 10002, Ack: 2, Len: 0
